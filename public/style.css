@@ -1,0 +1,68 @@
+
+.post-pic{
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  padding: 20px;
+  display: none;
+  border-radius: 28px; 
+}
+.koliaz-pic{
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  padding: 20px;
+  display: none;
+  border-radius: 28px;
+}
+a{
+  color: white;
+  font-family: 'Glegoo', serif;
+  font-size: 25px;
+  transition: color 0.5s;
+}
+
+#name:hover{
+   color: #7348c8;
+}
+#work:hover{
+  color: #7348c8;
+}
+#contact:hover{
+  color: #7348c8;
+}
+
+#aboutme:hover{
+  color: #7348c8;
+}
+img{
+  transition: filter 0.4s;
+}
+img:hover {
+    webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+    filter: blur(2px);
+    transition: filter 0.4s;
+}
+.navbar {
+  background: black;
+}
+input{
+  margin-bottom: 15px;
+}
+form{
+  width: 25%;
+  margin: auto;
+}
+.divider{
+  margin-left: 8%;
+  margin-right: 8%;
+  font-family: 'Glegoo', serif;
+  top: 0;
+  z-index: 1;
+  padding-top: 20px;
+
+}
+
+
+
+

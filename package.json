@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A portfolio for Gabija",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/datastore": "^4.5.2",
+    "@google-cloud/firestore": "^2.6.0",
+    "@google-cloud/storage": "^4.1.2",
+    "animate.css": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6-alpha.6",
+    "file-dialog": "0.0.7",
+    "google-cloud-storage": "^2.0.2",
+    "mongoose": "^5.7.10",
+    "nodemon": "^1.19.4"
+  }
+}

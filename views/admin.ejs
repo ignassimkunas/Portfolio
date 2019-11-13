@@ -1,0 +1,13 @@
+ <%- include('partials/header') %>
+
+<div style="margin-top: 80px; ">
+    <form encType="multipart/form-data"action="/post_image" method="POST">    
+    	<input type="text" class="form-control" name="name" placeholder="Name of Work"/>
+    	<input type="file" name="pic">  
+    	<button class="btn btn-md btn-secondary btn-block" type="submit">Upload Work</button>   
+    </form>
+</div>
+
+
+
+ <%- include('partials/footer') %>	
